@@ -30,7 +30,7 @@ for index in range(len(food)):
                               image=foodImages[index],
                               compound="left",
                               indicatoron=0,
-                              width=375
+                              width=375,
                               command=order
                               )
     radiobutton.pack(anchor=W)
