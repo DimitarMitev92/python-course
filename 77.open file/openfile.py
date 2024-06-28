@@ -6,7 +6,7 @@ def openFile():
                                           title = "Open file", 
                                           filetypes = (("Text files", "*.txt"), ("all files", "*.*")))
 
-    file = open(filepatjh, 'r')
+    file = open(filepath, 'r')
     print(file.read())
     file.close()
 
